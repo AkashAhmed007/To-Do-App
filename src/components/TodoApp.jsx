@@ -6,7 +6,7 @@ export default function TodoApp() {
   return (
     <div>
       <Form todos={todos} setTodos={setTodos}></Form>
-      <TodoList todos={todos}></TodoList>
+      <TodoList todos={todos} setTodos={setTodos}></TodoList>
     </div>
   );
 }
